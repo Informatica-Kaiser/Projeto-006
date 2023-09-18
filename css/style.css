@@ -66,6 +66,7 @@ nav ul li a {
 }
 
 #box {
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,10 +74,9 @@ nav ul li a {
     margin: 0 auto;
 
     margin-bottom: 2em;
-    background-color: #00555517;
+    background-color: #00555509;
     border-radius: 10px;
-    box-shadow: 0px 2px 6px #005555;
-    width: 90vw;
+    box-shadow: 0px 1px 4px #005555;
 }
 
 .text-service h3 {
@@ -91,7 +91,8 @@ nav ul li a {
     border-radius: 8px;
     margin: 1em 0;
     background-color: red;
-    width: 85%;
+    max-width: 350px;
+    width: 280px;
     height: 280px;
     margin-bottom: 1em;
 }
@@ -218,5 +219,33 @@ footer {
     text-decoration: none;
 }
 
+
+/* BANNER */
+
+.img-banner {
+    background-image: url(../img/man-5583034_1920-removebg-preview.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+}
+
+.text-banner h1 {
+    color: #005555;
+    margin-bottom: .5em;
+}
+
+.text-banner p {
+    line-height: 1.5em;
+    color: rgb(64, 61, 61);
+}
+
+.section-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 
 
