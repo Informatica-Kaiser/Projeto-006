@@ -152,12 +152,14 @@
     #box {
         margin: 2em;
         width: 300px;
+        transition: .3s;
     }
 
     #box:hover {
         background-color: white;
         cursor: pointer;
         box-shadow: 0px 0px 12px #2ce5e5;
+        transform: scale(1.05);
     }
 
     .section-b {
@@ -167,5 +169,6 @@
 
     .section-c button:hover {
         cursor: pointer;
+        
     }
 }
