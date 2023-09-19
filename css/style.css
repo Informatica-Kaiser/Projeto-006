@@ -82,7 +82,7 @@ nav ul li a {
     margin-bottom: 2em;
     background-color: #00555509;
     border-radius: 10px;
-    box-shadow: 0px 1px 4px #005555;
+    box-shadow: 0px 0px 4px #005555;
 }
 
 #box h3 {
@@ -97,8 +97,8 @@ nav ul li a {
     border-radius: 8px;
     margin: 1em 0;
     background-color: red;
-    max-width: 350px;
-    width: 270px;
+    max-width: 300px;
+    width: 280px;
     height: 280px;
     margin-bottom: 1em;
 }
