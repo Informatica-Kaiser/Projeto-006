@@ -33,6 +33,10 @@ header {
     height: 100px;
 }
 
+.menubar {
+    color: #084949
+}
+
 nav {
     display: none;
 }
@@ -41,6 +45,7 @@ nav ul li {
     list-style: none;
     padding: .5em;
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -246,7 +251,7 @@ footer {
 
 .section-d {
     height:100%;
-    
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
