@@ -15,6 +15,10 @@
         margin: 0;
     }
 
+    .menubar {
+        display: none;
+    }
+
     nav ul li {
         margin: 0;
         display: inline-block;
@@ -69,6 +73,10 @@
         margin: 0;
     }
 
+    .menubar {
+        display: none;
+    }
+
     nav ul li {
         margin: 0;
         display: inline-block;
@@ -89,6 +97,7 @@
         flex-direction: row;
         height:600px;
 
+        background-image: linear-gradient(to right, #00555579, #0055553c,#00555512, white, white );
         border-bottom: 1px solid #25e5e555;
     }
 
