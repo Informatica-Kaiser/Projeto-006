@@ -105,6 +105,7 @@ nav ul li a {
 }
 
 .lista strong {
+    color: #020c0cc2;
     font-weight: 600;
     font-size: 1.5em;
     margin-bottom: .5em;
@@ -117,7 +118,7 @@ nav ul li a {
     list-style-type: none;
     padding: 1em;
     line-height: 1.8em;
-    color: #005555;
+    color: rgb(19, 13, 13);
     text-align: center  ;
     text-indent: 30px;
 }
