@@ -92,6 +92,12 @@
     
     nav ul li a {
         font-size: 1.2em;
+        transition: .2s;
+    }
+
+    nav ul li:hover {
+        color: #2ce5e5;
+        transform: scale(1.1);
     }
 
     nav ul li a:hover {
@@ -167,8 +173,16 @@
         font-size: 1.5em;
     }
 
+    .section-c button {
+        transition: .3s;
+    }
+
     .section-c button:hover {
+        border: 1px solid #2ce5e5;
+        border-radius: 20px ;
         cursor: pointer;
-        
+        background-color: white;
+        color: #2ce5e5;
+        font-weight: 700;
     }
 }
