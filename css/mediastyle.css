@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:1366px) {
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
         align-items: center;
         padding: 1em;
