@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* CABEÇALHO */
+
+header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    box-shadow: 0px 0px 8px #005555;
+    margin-bottom: 2em;
+}
+
+.logo-header img {
+    margin: 1em 0;
+    width: 150px;
+    height: 100px;
+}
+
+.menubar {
+    color: #084949
+}
+
+nav {
+    display: none;
+}
+
+nav ul li {
+    list-style: none;
+    padding: .5em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a787d;
+    font-weight: 500;
+}
+
+
+/* CORPO */
+
+.text-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 1em;
+}
+
+.text-sobre h1 {
+    font-size: 2.2em;
+    text-align: center;
+    color: #005555;
+    text-shadow: 0px 0px 4px #00555572;
+    margin-bottom: .5em;
+}
+
+.text-sobre p {
+    padding: 1em;
+    line-height: 1.8em;
+    color: rgb(64, 61, 61);
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.lista {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #00555509;
+    list-style-type: none;
+}
+
+.lista ul li  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+
+.lista strong {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    list-style: none    ;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.lista ul li {
+    list-style-type: none;
+    padding: 1em;
+    line-height: 1.8em;
+    color: #005555;
+    text-align: center  ;
+    text-indent: 30px;
+}
+
+/* RODAPE */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #00555579, #0055553c,#00555512, white, white );
+    
+}
+
+.logo-footer img {
+    margin: 1em 0;
+    width: 150px;   
+    height: 100px;
+}
+
+.text-footer {
+    margin-bottom: 1em;
+}
+
+.text-footer h4 {
+    color: #005555;
+}
+
+.text-footer a {
+    color: #033232;
+    text-decoration: none;
+}
