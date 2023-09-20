@@ -145,6 +145,12 @@ nav ul li a {
     background-position: center center;
 }
 
+#img-servicos8 {
+    background-image: url(../img/loteamento.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 /* OBJETIVO */
 
 .section-b {
