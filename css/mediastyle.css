@@ -28,6 +28,14 @@
         display: inline-block;
     }
 
+    .text-banner h1 {
+        font-size: 2.5em;
+    }
+
+    .text-banner p {
+        max-width: 700px;
+    }
+
     .section-a {
         max-width: 1000px;
         margin: 0 auto;
