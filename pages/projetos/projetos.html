@@ -42,5 +42,23 @@
             <div class="img" id="img-works6"></div>
         </div>
     </section>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768)  {
+                nav.style.display = 'block'
+            }else {
+                nav.style.display = 'none'
+            }
+        }
+
+        function clickMenu () {
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            }else{
+                nav.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
