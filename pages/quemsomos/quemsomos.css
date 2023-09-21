@@ -34,8 +34,10 @@ header {
     height: 100px;
 }
 
-.menubar {
-    color: #084949
+.menubar span {
+    color: #084949;
+    padding: .5em;
+    font-size: 2em;
 }
 
 nav {
@@ -104,14 +106,11 @@ nav ul li a {
     
 }
 
-.lista strong {
+.lista ul li span {
     color: #020c0cc2;
     font-weight: 600;
-    font-size: 1.5em;
-    margin-bottom: .5em;
-    list-style: none    ;
-    list-style-type: none;
-    text-decoration: none;
+    font-size: 1.3em;
+    
 }
 
 .lista ul li {

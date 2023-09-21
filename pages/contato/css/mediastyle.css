@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:1366px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo-header img {
+        width: 130px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .text-contato {
+        max-width: 800px;
+    }
+
+
+}
+
+@media screen and (min-width: 1366px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em;
+        height: 15vh;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .logo-header img {
+        width: 120px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 0;
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        font-size: 1.2em;
+        transition: .2s;
+    }
+
+    nav ul li:hover {
+        color: #2ce5e5;
+        transform: scale(1.1);
+    }
+
+    nav ul li a:hover {
+        color: #2ce5e5;
+    }
+
+    .section-a {
+        flex-direction: row;
+        height: 85vh;
+        overflow:hidden;
+        background-image: linear-gradient(to right, #00555579, #0055553c,#00555512, white, white );
+    }
+    
+    .img-contato {
+        background-image: url(../../../img/man-5583034_1920-removebg-preview.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 85vh;
+        order: 1;
+    }
+
+    .text-contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        order: 2;
+        height: 85vh;
+    }
+
+    .text-contato, h1, p {
+        max-width: 800px;
+        padding:  0 2em;
+    }
+
+    .text-contato h1 {
+        font-size: 3em;
+    }
+
+    .text-contato p {
+        font-size: 1.2em;
+    }
+}
