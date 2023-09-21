@@ -72,4 +72,9 @@
         color: #2ce5e5;
     }
 
+    .lista ul {
+        columns: 2;
+    }
+
+
 }
