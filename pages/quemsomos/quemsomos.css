@@ -136,8 +136,8 @@ footer {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image: linear-gradient(to top, #00555579, #0055553c,#00555512, white, white );
-    
+    background-color: #00555527;
+    margin-top: 2em;
 }
 
 .logo-footer img {
